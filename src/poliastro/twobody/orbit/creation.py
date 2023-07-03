@@ -228,10 +228,10 @@ class OrbitCreationMixin:
 
         Parameters
         ----------
-        ephem : ~poliastro.ephem.Ephem
-            Ephemerides object to use.
         attractor : ~poliastro.bodies.Body
             Body to use as attractor.
+        ephem : ~poliastro.ephem.Ephem
+            Ephemerides object to use.
         epoch : ~astropy.time.Time
             Epoch to retrieve the osculating orbit at.
 
